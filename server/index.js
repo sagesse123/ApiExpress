@@ -3,10 +3,9 @@ import fetch from "node-fetch";
 import cors from "cors";
 // 3c1a902f626c4641a74c48c5b24f67ff       4c6f9c36443a4335894fcdd4f70f8cc0
 const app = express();
-const PORT = 5000;
-const BASE_URL = "https://api.football-data.org/v4";
-const API_KEY = "4c6f9c36443a4335894fcdd4f70f8cc0" ;
-
+const PORT = process.env.PORT || 5000;
+const BASE_URL = process.env.BASE_URL || "https://api.football-data.org/v4";
+const API_KEY = process.env.API_KEY;
 app.use(cors());
 
 // Endpoint proxy pour récupérer les matchs d'une compétition
