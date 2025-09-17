@@ -35,7 +35,7 @@ export class MatchService {
       const allData = await Promise.all(
         COMPETITIONS.map(async (comp) => {
           const res = await fetch(
-            `/api/competitions/${comp.id}/matches?dateFrom=${formatDate(
+            `https://apiexpress-gcn5.onrender.com/api/competitions/${comp.id}/matches?dateFrom=${formatDate(
               yesterday
             )}&dateTo=${formatDate(tomorrow)}`
           );
