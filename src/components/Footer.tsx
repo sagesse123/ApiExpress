@@ -35,7 +35,7 @@ export const Footer: React.FC = () => {
           <div>
             <h4 className="text-xl font-bold mb-4">Liens Rapides</h4>
             <ul className="space-y-2">
-              <li><a href=".live" className="text-gray-300 hover:text-green-500 transition-colors">Matchs Live</a></li>
+              <li><a href="#matches" className="text-gray-300 hover:text-green-500 transition-colors">Matchs Live</a></li>
               <li><a href="#" className="text-gray-300 hover:text-green-500 transition-colors">Codes Promo</a></li>
               <li><a href="#" className="text-gray-300 hover:text-green-500 transition-colors">Guide Paris</a></li>
               <li><a href="#" className="text-gray-300 hover:text-green-500 transition-colors">Support</a></li>

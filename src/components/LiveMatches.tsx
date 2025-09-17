@@ -86,7 +86,7 @@ export const LiveMatches: React.FC = () => {
   };
 
   return (
-    <section className="py-16 bg-gray-50">
+    <section id = "matches" className="py-16 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h3 className="text-4xl font-bold text-gray-900 mb-4">Matchs de Football</h3>
